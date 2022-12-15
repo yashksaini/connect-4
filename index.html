@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="icon.png" />
+    <title>Connect 4 Game || Yash Kumar Saini 2022</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="background center">
+      <div class="startBox" id="startBox">
+        <h1>Connect 4 Game</h1>
+        <button id="startBtn">START</button>
+        <p>Yash Kumar Saini<br />© 2022 All Rights Reserved.</p>
+      </div>
+      <div id="game" class="startBox hide">
+        <div class="infoBar">
+          <h1 id="showResult">Current Turn </h1>
+          <div id="resultDisc" class="player1"></div>
+        </div>
+        <div class="outerBox center">
+          <div id="gameBoard"></div>
+        </div>
+        <button onclick="window.location.reload()">RESTART</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
